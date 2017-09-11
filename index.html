@@ -1,9 +1,9 @@
 ---
 layout: home
 title: BLOG
-description: "The personal blog of Hossain Mohd. Faysal, a doctoral candidate in Electrical Engineering at University of Pennsylvania."
-headline: An Engineer's Diary
-tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsylvania, doha, Qatar]
+description: "The personal blog of Anton Sko Skovorodko, a software developer and a dad."
+headline: Anton Sko Blog
+tags: [Anton, Sko, Skovorodko, engineering, blog, university, dad, Tel-Aviv, Israel]
 ---
 {% if site.paginate %}
 	{% for post in paginator.posts %}
@@ -34,9 +34,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
             
                 <div class="summer-index-post-tags">
                 {% for tag in post.categories %}<a href="{{ site.url }}/categories/index.html#{{ post.categories | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} category">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
-                    
                 </div>
-            
         </div>
     </article>
 	{% endfor %}
@@ -51,7 +49,6 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
     <span class="newer-posts faded"><i class="fa fa-chevron-left"></i> Newer</span>
     {% endif %}
 
-    
     <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
     	{% if paginator.next_page %} 
         <a class="older-posts" href="{{ site.url }}/page{{ paginator.next_page }}/">Older <i class="fa fa-chevron-right"></i></a>
