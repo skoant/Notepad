@@ -56,6 +56,8 @@ paginate_path: "page:num"
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title
 
+plugins: [jekyll-paginate]
+
 kramdown:
   auto_ids: true
   footnote_nr: 1
