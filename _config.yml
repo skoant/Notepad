@@ -8,7 +8,6 @@ dropcap:          true
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
 url:        	  'https://skoant.github.io'
-baseurl:          '/'
 
 # Owner/author information
 owner:
@@ -16,7 +15,7 @@ owner:
   avatar:         skoant.jpg
   email:          skoant@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Awesome Dude, Awesome Life
+  description:    Anton Sko Online Presence
   # Social networking links used in footer. Update and remove as you like.
   twitter:        skoant
   facebook:       antonsko
@@ -63,14 +62,8 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  enable_coderay: false
-
-  syntax_highlighter_opts:
-    line_numbers:
-    line_numbers_start: 1
-    tab_width: 4
-    bold_every: 10
-    css: class
+  input: GFM
+  syntax_highlighter: rouge
 
 prose:
   rooturl: '_posts'
