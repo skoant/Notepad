@@ -1,5 +1,5 @@
 title:            skoant
-description:      "Anton Sko online presence"
+description:      "Anton Sko"
 logo:             logo3.png
 disqus_shortname: skoant
 share:            true
@@ -7,7 +7,7 @@ dropcap:          true
 # Change url to your domain. Leave localhost server or blank when working locally.
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
-url:        	  'https://skoant.github.io/'
+url:        	  'https://skoant.github.io'
 baseurl:          '/'
 
 # Owner/author information
@@ -19,11 +19,11 @@ owner:
   description:    Awesome Dude, Awesome Life
   # Social networking links used in footer. Update and remove as you like.
   twitter:        skoant
-  facebook:       skoant
+  facebook:       antonsko
   github:         skoant      
   instagram:      skoant
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    https://plus.google.com/u/0/123
+  #google_plus:    https://plus.google.com/u/0/123
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:
@@ -48,7 +48,7 @@ links:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Jerusalem
 future:      true
-highlighter: pygments
+highlighter: rouge
 markdown:    kramdown
 paginate:    5
 paginate_path: "page:num"
@@ -61,14 +61,14 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
+  enable_coderay: false
 
-  coderay:
-    coderay_line_numbers: 
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+  syntax_highlighter_opts:
+    line_numbers:
+    line_numbers_start: 1
+    tab_width: 4
+    bold_every: 10
+    css: class
 
 prose:
   rooturl: '_posts'
