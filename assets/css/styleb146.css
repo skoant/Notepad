@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   background-image:url('../../images/bg.jpg');
   background-repeat:no-repeat;
-  background-size:contain;
+  background-size:cover;
   background-position:center;
    }
   .summer-site-head .summer-site-head-content .summer-site-head-title-bg {
