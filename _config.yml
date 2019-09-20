@@ -1,13 +1,13 @@
 title:            skoant
-description:      "Anton Sko Blog'sko"
+description:      "Anton Sko"
 logo:             skologo.png
 disqus_shortname: skoant
 share:            true
 dropcap:          true
 # Change url to your domain. Leave localhost server or blank when working locally.
-# or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
+# or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
-url:        	  'https://skoant.github.io'
+url:        	  'https://www.antonsko.net'
 
 # Owner/author information
 owner:
@@ -15,20 +15,20 @@ owner:
   avatar:         antonsko.jpg
   email:          skoant@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Anton Sko Online Presence
+  description:    Anton Sko
   # Social networking links used in footer. Update and remove as you like.
   twitter:        skoant
   facebook:       antonsko
-  github:         skoant      
+  github:         skoant
   instagram:      skoant
   # For Google Authorship https://plus.google.com/authorship
   #google_plus:    https://plus.google.com/u/0/123
 
 # Analytics and webmaster tools stuff goes here
 google_analytics: UA-88686646-2
-google_verify:      
+google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+bing_verify:
 
 # Links to include in footer navigation
 # For external links add external: true
@@ -37,12 +37,12 @@ links:
     url: /
     external: false
     icon: home
-  - title: Featured Posts
-    url: /featured
-  - title: Categories
-    url: /categories
-  - title: About
-    url: /about
+#  - title: Featured Posts
+#    url: /featured
+#  - title: Categories
+#    url: /categories
+#  - title: About
+#    url: /about
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Jerusalem
@@ -67,8 +67,8 @@ kramdown:
 
 prose:
   rooturl: '_posts'
-  siteurl: 'https://skoant.github.io/'
-  relativeLinks: 'https://skoant.github.io/links.jsonp'
+  siteurl: 'https://www.antonsko.net/'
+  relativeLinks: 'https://www.antonsko.net/links.jsonp'
   media: 'images'
   metadata:
     _posts:
