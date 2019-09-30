@@ -429,7 +429,7 @@ html, body, .summer-post-container, .summer-post-header {
         max-width: 56.25rem;
         margin-left: auto;
         margin-right: auto; }
-      .summer-page-container .summer-page-content > div:not(.summer-page-title) p {
+      .summer-page-container .summer-page-content > div:not(.summer-page-title) p, table {
         margin: 0 auto 2em auto;
         max-width: 56.25rem;
         font-size: 1.125rem; }
