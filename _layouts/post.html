@@ -3,23 +3,23 @@
 <head>
 {% include head.html %}
 </head>
-<body class="post-template" itemscope itemtype="http://schema.org/WebPage">  
+<body class="post-template" itemscope itemtype="http://schema.org/WebPage">
 
 <main id="summer-post-container" class="summer-post-container intro-effect-sliced" role="main">
-    
-    
+
+
         <header class="summer-post-header">
             <div class="bg-img"></div>
-            
+
             <div class="summer-post-menu-header">
-                
+
                     <a class="summer-blog-logo" href="{{ site.url }}">
                         <img src="{{ site.url }}/images/{{ site.logo }}" alt="Blog Logo" />
                     </a>
-                
-                
-                
-                <div class="summer-blog-menu">      
+
+
+
+                <div class="summer-blog-menu">
     <div class="summer-mobile-menu show-for-small">
         <a href="#"><i class="fa fa-bars"></i></a>
     </div>
@@ -33,8 +33,8 @@
                 {% else %}
                     <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
                 {% endif %} </li>
-{% endfor %}            
-           <li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>
+{% endfor %}
+           <!--<li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>-->
     </ul>
 
 </div>
@@ -54,9 +54,9 @@
         <div class="cf"></div>
 {% if site.share %}{% include share.html %}{% endif %}
         <div class="cf"></div>
-        
-{% include signoff.html %} 
-        
+
+{% include signoff.html %}
+
         <div class="cf"></div>
         {% if site.disqus_shortname and page.comments == true %}
         <section class="summer-disqus row">
@@ -69,8 +69,8 @@
 {% endif %}
         <div class="cf"></div>
 
-    {% include footer.html %} 
-</main>    
-{% include scripts.html %} 
+    {% include footer.html %}
+</main>
+{% include scripts.html %}
 </body>
 </html>

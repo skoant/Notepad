@@ -3,7 +3,7 @@ layout: home
 title: Anton Sko Blog
 description: "The personal blog of Anton Sko Skovorodko, a software developer and a dad."
 headline: Anton Sko Blog
-tags: [Anton, Sko, Skovorodko, Engineering, Blog, University, Dad, Tel-Aviv, Israel, Software, Development, Machine Learning, Art, Science]
+tags: [Anton, Sko, Skovorodko, Engineering, Blog, University, Dad, Tel-Aviv, Israel, Software, Development, Machine Learning, AI, Data Science, Art, Science]
 ---
 {% if site.paginate %}
 	{% for post in paginator.posts %}
@@ -31,7 +31,7 @@ tags: [Anton, Sko, Skovorodko, Engineering, Blog, University, Dad, Tel-Aviv, Isr
             <section class="summer-post-excerpt">
                 <p>{{ post.content | strip_html | truncatewords:40 }}</p>
             </section>
-            
+
                 <div class="summer-index-post-tags">
                 {% for tag in post.categories %}<a href="{{ site.url }}/categories/index.html#{{ post.categories | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} category">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
                 </div>
@@ -50,7 +50,7 @@ tags: [Anton, Sko, Skovorodko, Engineering, Blog, University, Dad, Tel-Aviv, Isr
     {% endif %}
 
     <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-    	{% if paginator.next_page %} 
+    	{% if paginator.next_page %}
         <a class="older-posts" href="{{ site.url }}/page{{ paginator.next_page }}/">Older <i class="fa fa-chevron-right"></i></a>
     	{% else %}
     	<span class="older-posts faded">Older <i class="fa fa-chevron-right"></i></span>
@@ -82,13 +82,13 @@ tags: [Anton, Sko, Skovorodko, Engineering, Blog, University, Dad, Tel-Aviv, Isr
             <section class="summer-post-excerpt">
                 <p>{{ post.content | strip_html | truncatewords:100 }}</p>
             </section>
-            
+
                 <div class="summer-index-post-tags">
                 {% for tag in post.categories %}<a href="{{ site.url }}/categories/index.html#{{ post.categories | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} category">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
-                    
+
                 </div>
-            
+
         </div>
     </article>
-	{% endfor %}  
+	{% endfor %}
 {% endif %}

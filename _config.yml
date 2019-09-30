@@ -1,5 +1,5 @@
 title:            skoant
-description:      "Anton Sko"
+description:      "T h o u g h t s"
 logo:             skologo.png
 disqus_shortname: skoant
 share:            true
@@ -41,8 +41,8 @@ links:
 #    url: /featured
 #  - title: Categories
 #    url: /categories
-#  - title: About
-#    url: /about
+  - title: About
+    url: /about
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Jerusalem
