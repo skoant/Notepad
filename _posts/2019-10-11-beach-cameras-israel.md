@@ -4,6 +4,7 @@ published: true
 categories:
   - personal
 mathjax: false
+imagefeature: tlvbeach.jpg
 featured: false
 comments: false
 title: Beach cameras in Tel Aviv, Israel
