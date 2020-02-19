@@ -6,7 +6,7 @@ categories:
 mathjax: false
 featured: false
 comments: false
-title: Beach cameras in Tel Aviv Jaffo, Israel
+title: Beach cameras in Tel Aviv, Israel
 ---
 | | |
 |:-------------------------:|:-------------------------:|
