@@ -9,6 +9,7 @@ featured: false
 comments: false
 title: Beach cameras in Tel Aviv, Israel
 ---
+Live camera streams from Tel Aviv beaches
 | | |
 |:-------------------------:|:-------------------------:|
 | [![Forcast](https://lh3.googleusercontent.com/2OK8y5_gA80L8DXL_6fOoFEEOOJILepV8zepdM46LOFDmvIxAnWBNl5AHeC6Pzy6TQ=s180)](http://4surfers.co.il/#/beachArea?beachAreaId=60 "Forcast")
