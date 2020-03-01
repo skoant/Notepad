@@ -22,3 +22,5 @@ title: Beach cameras in Tel Aviv, Israel
 | [Gordon South](https://webcasting.co.il/player/tlv/frishman_mute.html)
 | [Charles Clore](https://webcasting.co.il/player/tlv/cam5_mute.html)
 | [Maaravi](https://webcasting.co.il/player/tlv/museum_mute.html)
+
+<iframe id="seaMovie" width="100%" height="100%" align="middle" src="https://webcasting.co.il/player/tlv/museum_mute.html"></iframe>
