@@ -15,7 +15,7 @@ title: Beach cameras in Tel Aviv, Israel
   <tbody>
     <tr>
       <td style="text-align:center">
-        <a href="http://4surfers.co.il/#/beachArea?beachAreaId=60"><img src="{{site.url}}/images/4surf.png"/></a></td>
+        <a href="http://4surfers.co.il/#/beachArea?beachAreaId=60"><img style="width:150px" src="{{site.url}}/images/4surf.png"/></a></td>
     </tr>
     <tr>
         <td style="text-align:center">
