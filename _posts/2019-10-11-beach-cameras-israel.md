@@ -11,7 +11,7 @@ title: Beach cameras in Tel Aviv, Israel
 ---
 
 
-<table>
+<table style="width:100%;max-width:700px">
   <tbody>
     <tr>
       <td style="text-align:center">
@@ -19,13 +19,13 @@ title: Beach cameras in Tel Aviv, Israel
     </tr>
     <tr>
         <td style="text-align:center">
-            <iframe style="width:100%;max-width:700px" height="300px" align="middle" src="http://server1.reali-tech.com/LiveStreamFlash/Demo/inter/inter10.html"></iframe>
+            <iframe style="width:100%;max-width:700px" height="300px" align="middle" src="https://www.google.ie/gwt/x?u=http://server1.reali-tech.com/LiveStreamFlash/Demo/inter/inter10.html"></iframe>
             <h3><a href="http://server1.reali-tech.com/LiveStreamFlash/Demo/inter/inter10.html">Hilton North</a></h3>
         </td>
     </tr>
     <tr>
         <td style="text-align:center">
-            <iframe style="width:100%;max-width:700px" height="300px" align="middle" src="http://server1.reali-tech.com/LiveStreamFlash/Demo/inter/inter20.html"></iframe>
+            <iframe style="width:100%;max-width:700px" height="300px" align="middle" src="https://www.google.ie/gwt/x?u=http://server1.reali-tech.com/LiveStreamFlash/Demo/inter/inter20.html"></iframe>
             <h3><a href="http://server1.reali-tech.com/LiveStreamFlash/Demo/inter/inter20.html">Hilton South</a></h3>
         </td>
     </tr>
@@ -33,12 +33,6 @@ title: Beach cameras in Tel Aviv, Israel
         <td style="text-align:center">
         <iframe style="width:100%;max-width:700px" height="300px" align="middle" src="https://rtsp.me/embed/4FEN7bBF/"></iframe>
         <h3><a href="https://rtsp.me/embed/4FEN7bBF/">Hilton South (Marina)</a></h3>
-        </td>
-    </tr>
-    <tr>
-        <td style="text-align:center">
-        <video width="352" height="198" preload="auto" autoplay loop muted><source src="http://server1.reali-tech.com:1935/live/dolphin.stream/playlist.m3u8" type="application/x-mpegURL"></video>
-        <h3><a href="http://server1.reali-tech.com:1935/live/dolphin.stream/playlist.m3u8">Gordon West</a></h3>
         </td>
     </tr>
     <tr>
